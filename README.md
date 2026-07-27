@@ -12,7 +12,7 @@ export PATH=/usr/bin:/arf/home/bcetiner/miniconda3/bin:$PATH
 /jellyfish count -m 21 -s 2G -t 32 -C -o /newfolder.jf /1.fq 2.fq
 /jellyfish histo -t 32 -h 10000 /newfolder.jf > .hist
 
-# GENOMESCOPE (Gregory W Vurture et al. 2017)
+# 4 GENOMESCOPE (Gregory W Vurture et al. 2017)
 
 /genomescope2 -i /.hist -o /new_folder_genomescope_k21_p2 -k 21 -p 2 -n _p2
 
